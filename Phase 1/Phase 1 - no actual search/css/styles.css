@@ -1,0 +1,124 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body
+{
+    width: 100%;
+    margin: 0px;
+    scroll-behavior: smooth;
+    background-image: url("https://media.discordapp.net/attachments/918317651435077664/968018025116741693/unknown.png?width=647&height=647");
+}
+
+/* Navigation Bar: */
+ul {
+    position: fixed;
+    list-style-type: none;
+    color: white;
+    width: 100%;
+    height: 50px;
+    font-size: 14px;
+    top: 0;
+    margin-top: 0px;
+    background-color: black;
+    font-family: Bahnschrift;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+	color: lightgrey;
+    text-decoration:underline;
+}
+
+li {
+    float: left;
+}
+
+/* Animations */
+.animate-in {
+    animation: fadeIn .5s ease-in;
+}
+
+.animate-out {
+    transition: opacity .5s;
+    opacity: 0;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.field {
+    display: block;
+    font-family: bahnschrift;
+    padding-top: 100px;
+    margin: auto;
+    width: 1050px;
+    height: 1000px;
+}
+
+.workbox {
+    display: block;
+    color: white;
+    margin: auto;
+    padding-top: 50px;
+    padding-left: 50px;
+    margin-top: 100px;
+    font-family: bahnschrift;
+    height: 400px;
+    width: 300px;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 10px;
+}
+
+.search {
+    width: 100px;
+    border-radius: 30px;
+    height: 20px;
+    padding-left: 10px;
+    font-family: bahnschrift;
+}
+
+#button {
+    font-family: bahnschrift;
+    width: 75px;
+}
+
+.button {
+    font-family: bahnschrift;
+    width: 150px;
+    margin-left: 50px;
+    background-color: white;
+}
+
+/* Wrapper */
+
+#wrapper {
+    background-image: url("../img/coworking.jpg");
+    color: white;
+    font-family: bahnschrift;
+    background-repeat: none;
+    width: 100%;
+    height: 400px;
+}
+
+/* Footer */
+
+#footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+    font-family: bahnschrift;
+    width: 100%;
+    height: 50px;
+    padding-bottom: 10px;
+}
